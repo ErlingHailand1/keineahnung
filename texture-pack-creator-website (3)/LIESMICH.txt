@@ -1,0 +1,12 @@
+Texture Pack Creator – Website-Version (rein clientseitig)
+1. Den gesamten Ordner (index.html + Ordner lib) auf deinen Webspace hochladen, z. B. GitHub Pages, Netlify oder normalen Webspace.
+2. index.html im Browser öffnen. Es wird nichts weiter benötigt, kein Server.
+Projekte werden im Browser des Besuchers gespeichert (IndexedDB).
+
+Pack für die Mod veröffentlichen (ohne eigenen Server): Build & Export -> Veröffentlichen -> GitHub
+- Ein GitHub-Repository anlegen (öffentlich empfohlen).
+- GitHub -> Settings -> Developer settings -> Personal access tokens -> Fine-grained tokens:
+  nur dieses Repository, Berechtigung "Contents: Read and write".
+- In der App Repository (name/repo), Branch, Pfad und Token eintragen und "Veröffentlichen" klicken.
+- Die angezeigte Zeile url=... in config/texturepack-sync.properties der Mod eintragen.
+Das Token wird nur im Browser gespeichert. Nutze die App mit Token nicht auf fremden Rechnern.
